@@ -1,0 +1,144 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the new register customer",
+        "description": "",
+        "id": "new-customer-registeration;verify-the-new-register-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9474993958,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am in Homepage",
+            "match": {
+              "location": "HomePageStepDef.i_am_in_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1650501847,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on SignIn link",
+            "match": {
+              "location": "RegisterStepDef.i_click_on_SignIn_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149199294,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see Register page",
+            "match": {
+              "location": "RegisterStepDef.i_should_see_Register_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 487164343,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter E-mail id and continue as guest",
+            "match": {
+              "location": "RegisterStepDef.i_enter_E_mail_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8627993144,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the Details",
+            "match": {
+              "location": "RegisterStepDef.i_enter_the_Details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Password",
+                  "Test123@"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "DOB",
+                  "21/11/1988"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Address",
+                  "40"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "City",
+                  "Juneau"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Postcode",
+                  "99801"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "MobilePhone",
+                  "123456789"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80062254,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see user registered",
+            "match": {
+              "location": "MyAccountStepDef.i_should_see_user_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@raghu"
+          }
+        ]
+      }
+    ],
+    "name": "New customer Registeration",
+    "description": "",
+    "id": "new-customer-registeration",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]
